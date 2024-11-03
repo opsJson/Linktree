@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@opsjson</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #000000;
+            color: #ffffff;
+        }
+        .profile-photo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-bottom: 15px;
+            border: 3px solid #ffffff;
+        }
+        .profile-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .link-container {
+            width: 100%;
+            max-width: 400px;
+            padding: 0 15px;
+            text-align: center;
+        }
+        .link {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            margin: 10px 0;
+            background-color: #222222;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+        .link:hover {
+            background-color: #333333;
+        }
+        .icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            flex-shrink: 0;
+        }
+        .link-text {
+            flex: 1;
+            text-align: left;
+        }
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 20px;
+            }
+            .link {
+                padding: 12px;
+                font-size: 14px;
+            }
+            .icon {
+                width: 20px;
+                height: 20px;
+                margin-right: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-photo">
+        <img src="opsjson.png" alt="Foto de Perfil">
+    </div>
+    <h1>@opsjson</h1>
+    <div class="link-container">
+        <a href="https://buscamedicamentos.com.br/" class="link" target="_blank">
+            <img src="busca-medicamento.ico" alt="Ícone" class="icon">
+            <span class="link-text">Busca Medicamentos</span>
+        </a>
+        <a href="https://chromewebstore.google.com/detail/view-once-photos-bypass-f/ceklhmaklgibacknihbkcookmfiddkeb" class="link" target="_blank">
+            <img src="view-once.png" alt="Ícone" class="icon">
+            <span class="link-text">View Once Photos Bypass for Whatsapp Web</span>
+        </a>
+        <a href="https://chromewebstore.google.com/detail/auto-contact-saver-for-wh/nloadjiefippecgegockfpioobngphnb" class="link" target="_blank">
+            <img src="auto-contact.png" alt="Ícone" class="icon">
+            <span class="link-text">Auto Contact Saver for Whatsapp Web</span>
+        </a>
+        <a href="https://chromewebstore.google.com/detail/delivery-tag-for-whatsapp/dhpclobnbekmhleejoihdmmkoipebplm" class="link" target="_blank">
+            <img src="delivery-tag.png" alt="Ícone" class="icon">
+            <span class="link-text">Delivery Tag for Whatsapp Web</span>
+        </a>
+        <a href="https://chromewebstore.google.com/detail/audio-to-text-for-whatsap/knjcfhlcbbkgjfocddahfmhjongelpgk" class="link" target="_blank">
+            <img src="audio-text.png" alt="Ícone" class="icon">
+            <span class="link-text">Audio to Text for Whatsapp Web</span>
+        </a>
+        <a href="https://chromewebstore.google.com/detail/whatsapp-scheduler/pfffeiaafoehkmfjdnpdmoaikadfgdff" class="link" target="_blank">
+            <img src="whatsapp-scheduler.png" alt="Ícone" class="icon">
+            <span class="link-text">Whatsapp Scheduler</span>
+        </a>
+    </div>
+</body>
+</html>
